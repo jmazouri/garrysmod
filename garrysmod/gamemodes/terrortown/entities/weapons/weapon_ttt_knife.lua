@@ -102,7 +102,7 @@ function SWEP:PrimaryAttack()
          -- other damage scaling, causing a death when we don't expect one, so
          -- when the target's health is close to kill-point we just kill
          if hitEnt:Health() < (self.Primary.Damage + 10) then
-            sel100(tr, spos, sdest)
+            self:StabKill(tr, spos, sdest)
          else
             local dmg = DamageInfo()
             dmg:SetDamage(self.Primary.Damage)
