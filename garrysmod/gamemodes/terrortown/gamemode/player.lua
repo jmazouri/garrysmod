@@ -814,7 +814,7 @@ function GM:OnPlayerHitGround(ply, in_water, on_floater, speed)
    if in_water or speed < 450 or not IsValid(ply) then return end
 
    -- Everything over a threshold hurts you, rising exponentially with speed
-   local damage = math.pow(0.05 * (speed - 420), 1.75)
+   local damage = math.pow(0.05 * (speed - 420), 1.68)
 
    -- I don't know exactly when on_floater is true, but it's probably when
    -- landing on something that is in water.
@@ -850,7 +850,7 @@ function GM:OnPlayerHitGround(ply, in_water, on_floater, speed)
          dmg:SetDamageForce(Vector(0,0,-1))
          dmg:SetDamage(damage)
 
-         ground:TakeDamageInfo(dmg)
+         ground:TakeDamageInfo(dmg * 0.75)
       end
 
       -- our own falling damage is cushioned

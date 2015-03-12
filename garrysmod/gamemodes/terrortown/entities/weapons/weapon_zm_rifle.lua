@@ -15,11 +15,11 @@ SWEP.Spawnable = true
 SWEP.Kind = WEAPON_HEAVY
 SWEP.WeaponID = AMMO_RIFLE
 
-SWEP.Primary.Delay          = 1.5
-SWEP.Primary.Recoil         = 7
+SWEP.Primary.Delay          = 1.75
+SWEP.Primary.Recoil         = 8
 SWEP.Primary.Automatic = true
 SWEP.Primary.Ammo = "357"
-SWEP.Primary.Damage = 50
+SWEP.Primary.Damage = 60
 SWEP.Primary.Cone = 0.005
 SWEP.Primary.ClipSize = 10
 SWEP.Primary.ClipMax = 20 -- keep mirrored to ammo

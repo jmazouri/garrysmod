@@ -128,10 +128,12 @@ function SWEP:FirePulse(force_fwd, force_up)
 
 end
 
-local CHARGE_FORCE_FWD_MIN = 300
-local CHARGE_FORCE_FWD_MAX = 700
-local CHARGE_FORCE_UP_MIN = 100
-local CHARGE_FORCE_UP_MAX = 350
+local CHARGE_FORCE_FWD_MIN = 200
+local CHARGE_FORCE_FWD_MAX = 850
+
+local CHARGE_FORCE_UP_MIN = 60
+local CHARGE_FORCE_UP_MAX = 450
+
 function SWEP:ChargedAttack()
    local charge = math.Clamp(self:GetCharge(), 0, 1)
    

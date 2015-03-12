@@ -28,7 +28,7 @@ SWEP.ViewModel          = "models/weapons/cstrike/c_knife_t.mdl"
 SWEP.WorldModel         = "models/weapons/w_knife_t.mdl"
 
 SWEP.DrawCrosshair      = false
-SWEP.Primary.Damage         = 50
+SWEP.Primary.Damage         = 100
 SWEP.Primary.ClipSize       = -1
 SWEP.Primary.DefaultClip    = -1
 SWEP.Primary.Automatic      = true
@@ -102,7 +102,7 @@ function SWEP:PrimaryAttack()
          -- other damage scaling, causing a death when we don't expect one, so
          -- when the target's health is close to kill-point we just kill
          if hitEnt:Health() < (self.Primary.Damage + 10) then
-            self:StabKill(tr, spos, sdest)
+            sel100(tr, spos, sdest)
          else
             local dmg = DamageInfo()
             dmg:SetDamage(self.Primary.Damage)

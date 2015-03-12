@@ -33,8 +33,8 @@ L.limit_vote       = "Round or time limit reached. Voting time!"
 L.limit_left       = "{num} round(s) or {time} minutes remaining before the map changes to {mapname}."
 
 --- Credit awards
-L.credit_det_all   = "Detectives, you have been awarded {num} equipment credit(s) for your performance."
-L.credit_tr_all    = "Traitors, you have been awarded {num} equipment credit(s) for your performance."
+L.credit_det_all   = "Detectives, you get a {num} credit raise! Now get back to work."
+L.credit_tr_all    = "Good work Traitors, here's a little spending money. ({num} credits)"
 
 L.credit_kill      = "You have received {num} credit(s) for killing a {role}."
 
@@ -984,11 +984,11 @@ L.aw_flg1_text  = "used their flares to signal for {num} deaths."
 L.aw_flg2_title = "Flare Indicates Fire"
 L.aw_flg2_text  = "taught {num} men about the danger of wearing flammable clothing."
 
-L.aw_hug1_title = "A H.U.G.E Spread"
-L.aw_hug1_text  = "was in tune with their H.U.G.E, somehow managing to make their bullets hit {num} people."
+L.aw_hug1_title = "Gone Wild Negev"
+L.aw_hug1_text  = "was in tune with their Negev, massacring over {num} people with 100% skill."
 
-L.aw_hug2_title = "A Patient Para"
-L.aw_hug2_text  = "just kept firing, and saw their H.U.G.E patience rewarded with {num} kills."
+L.aw_hug2_title = "Negevtive"
+L.aw_hug2_text  = "tasted the tears of {num} scrubs. #rekt"
 
 L.aw_msx1_title = "Putt Putt Putt"
 L.aw_msx1_text  = "picked off {num} people with the M16."

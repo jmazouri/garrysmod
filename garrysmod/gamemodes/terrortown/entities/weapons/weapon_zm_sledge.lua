@@ -5,7 +5,7 @@ SWEP.HoldType			= "crossbow"
 
 
 if CLIENT then
-   SWEP.PrintName			= "H.U.G.E-249"
+   SWEP.PrintName			= "Negev"
    SWEP.Slot				= 2
 
    SWEP.ViewModelFlip		= false
@@ -23,9 +23,9 @@ SWEP.Kind = WEAPON_HEAVY
 SWEP.WeaponID = AMMO_M249
 
 
-SWEP.Primary.Damage = 7
-SWEP.Primary.Delay = 0.06
-SWEP.Primary.Cone = 0.09
+SWEP.Primary.Damage = 3
+SWEP.Primary.Delay = 0.04
+SWEP.Primary.Cone = 0.06
 SWEP.Primary.ClipSize = 150
 SWEP.Primary.ClipMax = 150
 SWEP.Primary.DefaultClip	= 150
